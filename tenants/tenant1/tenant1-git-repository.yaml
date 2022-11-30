@@ -9,4 +9,4 @@ spec:
     branch: main
   secretRef:
     name: tenant1
-  url: ssh://git@github.com/swapnachagam/flux-tenant
+  url: https://github.com/swapnachagam/flux-tenant
