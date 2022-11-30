@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- apps-Namespace.yaml
+- tenant1-sa.yaml
+- tenant1-reconciler-rb.yaml
+- tenant1-git-repository.yaml
+- tenant1-kustomization.yaml
